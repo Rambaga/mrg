@@ -122,11 +122,11 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <subsystems>Subsystem.НормативноСправочнаяИнформация</subsystems>
   <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
-  <subsystems>Subsystem.НормативноСправочнаяИнформация</subsystems>
-  <subsystems>Subsystem.Продажи</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ЗаблокированныйРеквизитЦвет</styleItems>
   <styleItems>StyleItem.ГиперссылкаЦвет</styleItems>
@@ -570,11 +570,11 @@
   <catalogs>Catalog.ИдентификаторыОбъектовРасширений</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.СостоянияОригиналовПервичныхДокументов</catalogs>
-  <catalogs>Catalog.Организации</catalogs>
-  <catalogs>Catalog.Подразделения</catalogs>
-  <catalogs>Catalog.ФизическиеЛица</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Подразделения</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
   <documents>Document.Договоры</documents>
   <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.РежимыВыполненияОбработчиков</enums>
