@@ -567,6 +567,7 @@
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.СостоянияОригиналовПервичныхДокументов</catalogs>
   <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Подразделения</catalogs>
   <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.РежимыВыполненияОбработчиков</enums>
   <enums>Enum.РежимыВыполненияОтложенныхОбработчиков</enums>
