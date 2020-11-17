@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bce51427-773d-42a4-a53c-e757cd85d537">
+  <name>НормативноСправочнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделСправочники</picture>
+  </picture>
+  <content>Catalog.Подразделения</content>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.Номенклатура</content>
+  <subsystems>Организации</subsystems>
+</mdclass:Subsystem>

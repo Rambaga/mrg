@@ -125,6 +125,8 @@
   <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
+  <subsystems>Subsystem.НормативноСправочнаяИнформация</subsystems>
+  <subsystems>Subsystem.Продажи</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ЗаблокированныйРеквизитЦвет</styleItems>
   <styleItems>StyleItem.ГиперссылкаЦвет</styleItems>
@@ -275,6 +277,8 @@
   <commonPictures>CommonPicture.ФорматПустой</commonPictures>
   <commonPictures>CommonPicture.ЦветТекста</commonPictures>
   <commonPictures>CommonPicture.ЦветФона</commonPictures>
+  <commonPictures>CommonPicture.РазделПродажи</commonPictures>
+  <commonPictures>CommonPicture.РазделСправочники</commonPictures>
   <sessionParameters>SessionParameter.АвторизованныйПользователь</sessionParameters>
   <sessionParameters>SessionParameter.БуферОбмена</sessionParameters>
   <sessionParameters>SessionParameter.ВерсияРасширений</sessionParameters>
