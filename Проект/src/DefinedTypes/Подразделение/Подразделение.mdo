@@ -9,9 +9,6 @@
     <value>Подразделение</value>
   </synonym>
   <type>
-    <types>String</types>
-    <stringQualifiers>
-      <length>10</length>
-    </stringQualifiers>
+    <types>CatalogRef.Подразделения</types>
   </type>
 </mdclass:DefinedType>
