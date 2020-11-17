@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7181634-a7d7-4f3c-9e12-908d462d6276">
+  <producedTypes>
+    <objectType typeId="19a3d9f3-b9d7-48a7-bb5d-98f68e259397" valueTypeId="1eaa24ec-8231-4a77-8a6d-e305a5427543"/>
+    <refType typeId="4138999b-494d-4d4b-bda4-b209a5782ae5" valueTypeId="8083ef76-9e16-426b-9e08-a613260496dd"/>
+    <selectionType typeId="a04abff0-54ce-4541-b4fd-2d10af55d256" valueTypeId="09f9320e-e77a-4a27-9466-7e52a0dca220"/>
+    <listType typeId="f0e37d6b-675d-4225-9cb5-e17b18c97de0" valueTypeId="f228747d-8cda-4445-a166-d7e2da2eea9b"/>
+    <managerType typeId="b552e870-cac5-4e22-b13d-da17eabbe9cf" valueTypeId="3950f750-d86f-4794-9b9c-934f2b7f0567"/>
+  </producedTypes>
+  <name>Договоры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Договоры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Договоры.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="60abaead-339c-46d4-aa6f-1297829523f7">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="98b4fbc2-d952-44a7-98d5-631f5135786e">
+    <producedTypes>
+      <objectType typeId="20e5bc50-c969-4ef5-b0b7-596447ef9781" valueTypeId="3b56fd53-e60c-45f5-b9a8-b5122e14eced"/>
+      <rowType typeId="dff4f8a2-50ee-46a5-876a-9576f7db8fc2" valueTypeId="00024438-def2-4e62-956b-17c4c86e4bb8"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="ee18cd4d-13c2-4667-954e-dcfaf8e97d81">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="c168131a-b75a-416b-91e1-2076a81fafe0">
+    <name>ПФ_MXL_Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+  </templates>
+</mdclass:Document>
