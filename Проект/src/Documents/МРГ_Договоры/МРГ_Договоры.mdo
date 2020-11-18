@@ -23,6 +23,8 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.МРГ_Договоры.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.МРГ_Договоры.Form.ФормаСписка</defaultListForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="60abaead-339c-46d4-aa6f-1297829523f7">
@@ -40,6 +42,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="23ca7e34-a78b-4d1e-b4b7-a6371107bd8f">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="991c8208-6c50-41c9-a3e8-69cd8b1f3be7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="98b4fbc2-d952-44a7-98d5-631f5135786e">
     <producedTypes>
       <objectType typeId="20e5bc50-c969-4ef5-b0b7-596447ef9781" valueTypeId="3b56fd53-e60c-45f5-b9a8-b5122e14eced"/>
