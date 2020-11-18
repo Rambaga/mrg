@@ -10,5 +10,5 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.РазделПродажи</picture>
   </picture>
-  <content>Document.Договоры</content>
+  <content>Document.МРГ_Договоры</content>
 </mdclass:Subsystem>

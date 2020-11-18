@@ -575,7 +575,7 @@
   <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
-  <documents>Document.Договоры</documents>
+  <documents>Document.МРГ_Договоры</documents>
   <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.РежимыВыполненияОбработчиков</enums>
   <enums>Enum.РежимыВыполненияОтложенныхОбработчиков</enums>

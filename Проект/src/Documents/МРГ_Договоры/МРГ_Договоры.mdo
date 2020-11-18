@@ -7,13 +7,13 @@
     <listType typeId="f0e37d6b-675d-4225-9cb5-e17b18c97de0" valueTypeId="f228747d-8cda-4445-a166-d7e2da2eea9b"/>
     <managerType typeId="b552e870-cac5-4e22-b13d-da17eabbe9cf" valueTypeId="3950f750-d86f-4794-9b9c-934f2b7f0567"/>
   </producedTypes>
-  <name>Договоры</name>
+  <name>МРГ_Договоры</name>
   <synonym>
     <key>ru</key>
     <value>Договоры</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.Договоры.StandardAttribute.Number</inputByString>
+  <inputByString>Document.МРГ_Договоры.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
